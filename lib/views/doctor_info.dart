@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
 
-class DoctorsInfo extends StatefulWidget {
+class DoctorsInfo extends StatefulWidget
+{
   @override
   _DoctorsInfoState createState() => _DoctorsInfoState();
 }
 
-class _DoctorsInfoState extends State<DoctorsInfo> {
+class _DoctorsInfoState extends State<DoctorsInfo>
+{
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
@@ -30,7 +33,7 @@ class _DoctorsInfoState extends State<DoctorsInfo> {
                     width: 20,
                   ),
                   Container(
-                    width: MediaQuery.of(context).size.width - 222,
+                    width: MediaQuery.of(context).size.width - 220,
                     height: 220,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -41,7 +44,7 @@ class _DoctorsInfoState extends State<DoctorsInfo> {
                           style: TextStyle(fontSize: 32),
                         ),
                         Text(
-                          "Heart Speailist",
+                          "Heart Specialist",
                           style: TextStyle(fontSize: 19, color: Colors.grey),
                         ),
                         SizedBox(
@@ -110,7 +113,7 @@ class _DoctorsInfoState extends State<DoctorsInfo> {
                               Container(
                                   width: MediaQuery.of(context).size.width - 268,
                                   child: Text(
-                                    "House # 2, Road # 5, Green Road Dhanmondi, Dhaka, Bangladesh",
+                                    "8,Shree Ashish Apartment, Mahatma Nagar, Nashik-7",
                                     style: TextStyle(color: Colors.grey),
                                   ))
                             ],
@@ -242,14 +245,16 @@ Open till 7 Pm''',
   }
 }
 
-class IconTile extends StatelessWidget {
+class IconTile extends StatelessWidget
+{
   final String imgAssetPath;
   final Color backColor;
 
   IconTile({this.imgAssetPath, this.backColor});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     return Container(
       margin: EdgeInsets.only(right: 16),
       child: Container(

@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget
 
 class _HomePageState extends State<HomePage>
 {
-  List<String> categories = ["Adults","Childrens","Womens","Mens"];
+  List<String> categories = ["Adult","Children","Women","Men"];
 
   List<SpecialityModel> specialities;
 
@@ -87,7 +87,8 @@ class _HomePageState extends State<HomePage>
                     shrinkWrap: true,
                     physics: ClampingScrollPhysics(),
                     scrollDirection: Axis.horizontal,
-                    itemBuilder: (context, index){
+                    itemBuilder: (context, index)
+                    {
                       return CategorieTile(
                         categorie: categories[index],
                         isSelected: selectedCategorie == categories[index],
@@ -103,7 +104,8 @@ class _HomePageState extends State<HomePage>
                     shrinkWrap: true,
                     physics: ClampingScrollPhysics(),
                     scrollDirection: Axis.horizontal,
-                    itemBuilder: (context, index){
+                    itemBuilder: (context, index)
+                    {
                       return SpecialistTile(
                         imgAssetPath: specialities[index].imgAssetPath,
                         speciality: specialities[index].speciality,

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
-class SpecialityModel{
-
+class SpecialityModel
+{
   String imgAssetPath;
   String speciality;
   int noOfDoctors;
