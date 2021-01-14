@@ -13,3 +13,5 @@ Follow these simple steps & make your life easy
 - You need to immediately consult a doctor. Quickly install my [Doctor Booking App]() & book an appointment for you.
 - You will then need to go Quarantine & have medicines. Cummon bro, install my [Covid Store App]() & get your medicines.
 - Bored in Quarantine ? Get your [Book App]() right here.
+- You need to eat good & healthy food to increase your immunity. [Grocery App]() is waiting for you.
+- Yoga is skill in action. Learn [Yoga]() here.
